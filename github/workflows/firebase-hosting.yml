@@ -24,4 +24,4 @@ jobs:
         run: firebase login:ci --no-localhost --interactive
 
       - name: Deploy to Firebase
-        run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --project your-project-id
+        run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --proposalone-60dc1
