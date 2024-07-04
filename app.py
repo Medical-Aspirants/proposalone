@@ -64,4 +64,4 @@ def play_song_and_show_message():
     print("I deeply love you and you're my life")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
